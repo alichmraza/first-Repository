@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 02</title>
+
+    <script>
+        // var arr = [4, 5, 6, 7, 8, 'Hello', 'World'];
+        // console.log(arr);
+        // console.log(arr.join(' '));
+
+        var str = 'Its the same problem you face when you combine mathematical expressions';
+        str = str.split(' ');
+        var result = ' ';
+
+        for (var i = 0; i < str.length; i++)
+        {
+            var firstLatter = str[i].slice(0, 1);
+            var otherLatter = str[i].slice(1);
+            var newword = firstLatter.toLocaleUpperCase() + otherLatter.toLocaleLowerCase();
+            result = result + ' ' + newword;
+
+        console.log(firstLatter);
+        console.log(otherLatter);
+        console.log(newword);
+        }
+
+// console.log(str);
+
+        console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

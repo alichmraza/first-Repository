@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+</head>
+<script>
+    // var cityA = 'karachi';
+    // var cityB = 'lahore';
+    // var cityC = 'islamabad';
+    // alert ('welcome to' +  cityC);
+    // var arr = ['karachi', 'hyderabad', 'lahore', 'multan' ,'islamabad'];
+    // arr[5] = 'peshawer';
+    // console.log(arr);
+    // console.log(arr[3]);
+    // alert('welcome to ' + arr[3]);
+    // arr.splice(2,1, 'sialkot', 'faisalabad');
+    // console.log(arr);
+    // var b = arr.slice(2,4);
+    // console.log(b);
+    // var a = [4 , 5 , 6 , 7 , 8 , 9 , 10];
+    // var b = ['Hello' , 'world'];
+    // console.log(a);
+    // console.log(a.concat(b));
+    // console.log(a.indexOf(7));
+    // console.log(a.lastIndexOf(8));
+    // var b = a.slice(2, 4);
+    // a.splice(2, 0, 'Helo', 'world');
+    // console.log(a);
+    // var arr = ['karachi', 'hyderabad', 'lahore', 'multan' ,'islamabad'];
+    // for (var i = 0; i < arr.length ; i++) {
+    //     if (arr[i] == 'karachi'){
+    //         console.log(i);
+    //     }
+    // }
+    //     console.log(arr[i]);
+    // var arr = [];
+    // for(var i = 0; i <= 100; i++) {
+    //     arr[i] = 'Hello' + (i+1);
+    // }
+    // console.log(arr);
+
+    // var a =['A', 'B', 'C', 'D', 'E'];
+    // var isMatched = false;
+    // for(var i = 0; i <= a.length; i++){
+    //     if(a[i] == 'D'){
+    //         isMatched = true;
+    //         alert('Match');
+    //         break;
+    //     }
+    // }
+    // if(!isMatched){
+    //     alert('Not Match');
+    // }
+
+    // for(var i = 0; i < 12; i++){
+    //     console.log(i, 'I');
+    // for(var j = 0; j < 12; j++){
+    //     console.log(j, 'J');
+    // }
+    // }
+
+    // var a = ['A', 'B','C','D','E','F'];
+    // var b = ['G','H','I','C','J','K'];
+    // var result = [];
+    //
+    // for(var i=0; i<a.length; i++){
+    //     console.log(a[i]);
+    //     for(var j=0; j<b.length; j++){
+    //         console.log(b[j]);
+    //     if(a[i]==b[j]){
+    //         console.log(b[j], 'Result');
+    //         result.push(b[j]);
+    //     }
+    //         }
+    // }
+    // console.log(result);
+
+
+       // var input = 'Hello World';
+    // console.log(input);
+    // console.log(input[2]);
+    // console.log(input.length);
+    // console.log(input.toUpperCase());
+
+    var input = "You've asked the user to give you the name of a city. You want to convert the name she's given you to a name with an initial cap"
+    console.log(input);
+    console.log(input.charAt(8));
+    for(var i = 0; i<input.length; i++){
+        var index = input.lastIndexOf('a');
+        var newword = 'Ali';
+        if(index !==-1){
+
+            var firstline = input.slice(0, index);
+            var endline =input.slice(index + 4);
+            input = firstline + endline + newword;
+
+        }
+    }
+console.log(firstline + endline + newword);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+<body>
+
+</body>
+</html>
